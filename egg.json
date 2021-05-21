@@ -4,14 +4,9 @@
   "entry": "./mod.ts",
   "description": "notion sdk deno",
   "homepage": "https://github.com/yeukfei02/notion-sdk-deno",
-  "version": "0.2.0",
-  "files": [
-    "*",
-    "*/**/*"
-  ],
-  "ignore": [
-    "./.git/**"
-  ],
+  "version": "0.3.0",
+  "files": ["*", "*/**/*"],
+  "ignore": ["./.git/**"],
   "checkFormat": "deno fmt",
   "checkTests": "deno test -A",
   "checkInstallation": true,

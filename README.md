@@ -32,7 +32,7 @@ const userList = await notion.getUsers();
 console.log("userList = ", userList);
 ```
 
-```json
+```zsh
 // userList
 userList = [
   {
@@ -61,7 +61,7 @@ const user = await notion.getUserById(userId);
 console.log("user = ", user);
 ```
 
-```json
+```zsh
 // user
 user =  {
   object: "user",
@@ -94,7 +94,7 @@ const page = await notion.getPageById(pageId);
 console.log("page = ", page);
 ```
 
-```json
+```zsh
 // page
 page = {
   object: "page",
@@ -114,7 +114,7 @@ const pageChildren = await notion.getPageChildrenById(blockId);
 console.log("pageChildren = ", pageChildren);
 ```
 
-```json
+```zsh
 // pageChildren
 pageChildren = [
   {
