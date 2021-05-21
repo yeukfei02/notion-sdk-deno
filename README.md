@@ -14,9 +14,9 @@ notion sdk deno
 
 ```ts
 // pick 1 to import
-import Notion from "https://deno.land/x/notion_sdk_deno/mod.ts";
-import Notion from "https://x.nest.land/notion-sdk-deno/mod.ts";
-import Notion from "https://denopkg.com/yeukfei02/notion-sdk-deno/mod.ts";
+import { Notion } from "https://deno.land/x/notion_sdk_deno@v0.3.8/mod.ts";
+import { Notion } from "https://x.nest.land/notion-sdk-deno@0.3.8/mod.ts";
+import { Notion } from "https://denopkg.com/yeukfei02/notion-sdk-deno@v0.3.8/mod.ts";
 ```
 
 ```ts
