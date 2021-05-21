@@ -10,7 +10,7 @@ interface InitObject {
   token: string;
 }
 
-class Notion {
+export class Notion {
   private token = "";
 
   constructor(initObject: InitObject) {
@@ -53,5 +53,3 @@ class Notion {
     return pageChildren;
   }
 }
-
-export default Notion;

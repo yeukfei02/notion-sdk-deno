@@ -1,4 +1,4 @@
-import Notion from "../src/main.ts";
+import { Notion } from "../src/main.ts";
 import { assert } from "../deps.ts";
 import "https://deno.land/x/dotenv/load.ts";
 
