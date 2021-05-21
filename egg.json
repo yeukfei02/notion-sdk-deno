@@ -4,7 +4,7 @@
   "entry": "./mod.ts",
   "description": "notion sdk deno",
   "homepage": "https://github.com/yeukfei02/notion-sdk-deno",
-  "version": "0.3.7",
+  "version": "0.3.8",
   "files": ["*", "*/**/*"],
   "ignore": ["./.git/**"],
   "checkFormat": "deno fmt",
