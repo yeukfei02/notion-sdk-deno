@@ -1,1 +1,1 @@
-export * as Notion from "./src/main.ts";
+export { Notion } from "./src/main.ts";
