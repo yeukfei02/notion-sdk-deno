@@ -1,0 +1,15 @@
+{
+  "$schema": "https://x.nest.land/eggs@0.3.6/src/schema.json",
+  "name": "notion-sdk-deno",
+  "entry": "./mod.ts",
+  "description": "notion sdk deno",
+  "homepage": "https://github.com/yeukfei02/notion-sdk-deno",
+  "version": "0.1.0",
+  "files": ["*", "*/**/*"],
+  "ignore": ["./.git/**"],
+  "checkFormat": "deno fmt",
+  "checkTests": "deno test -A",
+  "checkInstallation": true,
+  "check": true,
+  "unlisted": false
+}
