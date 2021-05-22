@@ -4,7 +4,23 @@
 
 [![nest badge](https://nest.land/badge.svg)](https://nest.land/package/notion-sdk-deno)
 
-notion sdk deno
+Deno [Notion](https://www.notion.so) SDK
+
+_Note: The [Notion API](https://developers.notion.com/) is in beta phase_
+
+## Supported APIs
+
+- [x] Users
+
+- [ ] Databases (only GET)
+
+- [ ] Blocks (only GET)
+
+- [ ] Pages (only GET)
+
+- [ ] Search
+
+If this package needs update, please raise an issue or a PR.
 
 ## Requirement
 
@@ -14,9 +30,9 @@ notion sdk deno
 
 ```ts
 // pick 1 to import
-import { Notion } from "https://deno.land/x/notion_sdk_deno@v0.3.8/mod.ts";
-import { Notion } from "https://x.nest.land/notion-sdk-deno@0.3.8/mod.ts";
-import { Notion } from "https://denopkg.com/yeukfei02/notion-sdk-deno@v0.3.8/mod.ts";
+import { Notion } from "https://deno.land/x/notion_sdk_deno@v0.3.9/mod.ts";
+import { Notion } from "https://x.nest.land/notion-sdk-deno@0.3.9/mod.ts";
+import { Notion } from "https://denopkg.com/yeukfei02/notion-sdk-deno@v0.3.9/mod.ts";
 ```
 
 ```ts
